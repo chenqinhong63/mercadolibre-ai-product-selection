@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# Credentials and secrets — never commit
+.env
+*.key
+*credentials*
+*secret*
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Node (if any tooling is added later)
+node_modules/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
